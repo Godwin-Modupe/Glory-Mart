@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'fontAwesome','Courier New', Courier, monospace,sans-serif;
+}
+/*----Menu-bar ----*/
+#menu-bar {
+    background: linear-gradient(to right,#c29b0c, #ffffff);
+    /* background-image: linear-gradient(to top right, #ffd700, #c29b0c, #ffffff, #000000); */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.8);
+}
+.navbar-brand img {
+    width: 100px;
+}
+.offcanvas-header {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.8);
+}
+.offcanvas-header  h5 img {
+    width: 100px;
+}
+.offcanvas-body .navbar-nav .nav-item {
+    padding: 20px;
+}
+.offcanvas-body .navbar-nav .nav-link:hover {
+    display: block;
+    /* padding: 5px !important; */
+    border-bottom: 3px solid #c29b0c !important;
+}
+/* Slider */
+#slider {
+    width: 100%;
+}
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+.carousel-caption h5 {
+    color: #fff;
+    font-size: 42px;
+}
+/* Home */
+#home {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('pic 6.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#home .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -10%);
+}
+#home .banner-text h2 {
+    font-size: 40px;
+    color: #c29b0c;
+    /* color: #fff; */
+    font-weight: bolder;
+    padding: 10px;
+}
+#home .banner-text p {
+    font-size: 20px;
+    /* color: #c29b0c; */
+    color: #fff;
+    font-weight: bolder;
+    padding: 10px;
+}
+/* About */
+.title {
+    text-align: center;
+    color: #000 !important;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.title::after {
+    content: '';
+    background: linear-gradient(to right,#c29b0c, #ffffff);
+    display: block;
+    height: 6px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.feature  {
+    margin: 50px 0;
+}
+.feature img {
+    max-width: 50%;
+    cursor: pointer;
+}
+.feature h2 {
+    margin-top: 50px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.feature p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #808080;
+    font-size: 15px;
+    padding: 10px;
+    line-height: 18px;
+}
+/* #feature a  {
+    width: 170px;
+    padding: 15px 10px;
+    display: block;
+    background: #6900d1;
+    text-decoration: none !important;
+    color: #fff !important;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 9px 9px 1px rgba(204,204,204,0.5);
+} */
+/* Services */
+#service {
+    margin: 75px 0;
+}
+.head {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.subtitle {
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 15px;
+}
+.service-box {
+    padding: 0 35px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: .4s;
+}
+.service-box i{
+    width: 100px;
+    font-size: 25px;
+    margin-top: 65px;
+    margin-bottom: 45px;
+}
+.service-box h6 {
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.service-box p {
+    font-size: 14px;
+    color: #808080;
+}
+.fa-arrow-right {
+    font-size: 22px !important;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+.service-box:hover,.active-service {
+    /* background: #6900d1; */
+    /* background: linear-gradient(to right,#c29b0c, #ffffff); */
+    background: #c29b0c;
+    border-radius: 5px;
+    color: #fff !important;
+    box-shadow: 0 15px 15px 2px rgba(213,213,213,0.5);
+}
+.service-box:hover p {
+    color: #fff !important;
+}
+.active-service {
+    color: #fff !important;
+}
+#contact {
+	/*background: #efefef;*/
+    background-color: #c29b0c;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #777;
+}
+.contact-form {
+	padding: 15px;
+}
+.form-control {
+	border-radius: 0 !important;
+	border: none !important;
+}
+::placeholder {
+	color: #999 !important;
+}
+.follow {
+	background: #fff;
+	padding: 10px;
+	margin: 15px;
+}
+.contact-info .fa {
+	margin: 10px;
+	color: #007bff;
+	font-weight: bold;
+}
+.contact-form .btn {
+    display: block;
+    padding: 15px 10px 13px 12px;
+    background: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 3s;
+}
+.contact-form .btn:hover {
+    color: #c29b0c;
+}
+/* Footer */
+#page-end {
+	background: linear-gradient(to right,#c29b0c, #ffffff);
+	color: #fff;
+	padding: 12px;
+}
+footer p {
+    font-size: 30px;
+    font-weight: bold;
+}
+footer small {
+    font-size: 15px;
+    font-weight: bold;
+}

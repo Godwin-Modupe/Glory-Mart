@@ -43,7 +43,7 @@
 /* Home */
 #home {
     width: 100%;
-    height: 85vh;
+    height: 90vh;
     background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('pic 6.jpg');
     background-size: cover;
     background-position: center;
